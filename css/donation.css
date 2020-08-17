@@ -1,0 +1,132 @@
+body {
+	font-family: 'candara'
+}
+input.amount {
+	color: #424242;
+	display: block;
+	padding: 0.8em 0px;
+	border: solid #dcdcdc 2px;
+	text-align: center;
+	box-sizing: border-box;
+	position: relative;
+	text-align: left;
+	font-family: arial;
+	font-size: 1.4em
+}
+.tomato-txt {
+	color: #f15e33
+}
+.half-space, .half {
+	width: 46%
+}
+.icon {
+	background-position: 4% 48%!important;
+	background-size: 20px 22px !important;
+	padding-left: 30px !important;
+	background-repeat: no-repeat
+}
+.ico-dollar {
+	background-image: url(../icons/dollar.png) !important
+}
+#why_link {
+	text-decoration: none;
+	color: #0ea0d6;
+	font-style: italic;
+	font-size: large
+}
+.btn {
+	padding: 0.9em;
+	letter-spacing: .4px;
+	font-size: 1.1em;
+	font-family: 'candara';
+}
+.transparent {
+	background: transparent;
+	color: #828282;
+	border: solid #dcdcdc 2px
+}
+.active-btn {
+	background: #00be1c;
+	color: #fff;
+	border: solid #00be1c 1px;
+	padding: 0.75em .5em;
+	font-size: 24px
+}
+.fund-details {
+	padding: 1.5em;
+	border: solid #dcdcdc 2px;
+	color: #828282;
+	margin-bottom: 1.5em
+}
+.arrow_box {
+	position: relative;
+	background: #424242;
+	color: #fff;
+	padding: 1em;
+	font-size: larger;
+	text-align: center;
+	margin-bottom: 10px
+}
+.arrow_box:after {
+	top: 100%;
+	left: 85%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(66, 66, 66, 0);
+	border-top-color: #424242;
+	border-width: 10px;
+	margin-left: -10px
+}
+.progress {
+	background: -webkit-linear-gradient(left, #f15e33 75%, white 50%);
+	background: -moz-linear-gradient(left, #f15e33 75%, white 50%);
+	background: -ms-linear-gradient(left, #f15e33 75%, white 50%);
+	background: linear-gradient(left, #f15e33 75%, white 50%);
+	height: 15px;
+	border: solid #dcdcdc 2px;
+	border-bottom: none
+}
+.fund-details p {
+	margin-top: 0px;
+	font-size: larger
+}
+@media(max-width:568px) {
+	.btn{
+		padding:0.9em 0.6em!important;
+	}
+	input[type="submit"] {
+		padding: .75em .1em;
+		font-size: 24px
+	}
+}
+@media(max-width:480px) {
+	.btn {
+		padding: 0.9em 0.1em!important;
+	}
+	input[type="submit"] {
+		padding: .8em .1em;
+		font-size:22px
+	}
+	.main-container {
+		width: 90%;
+	}
+}
+@media(max-width:384px) {
+	input[type="submit"] {
+		padding:1em .1em;
+		font-size:20px
+	}
+}
+@media(max-width:320px) {
+	.btn {
+		padding: 0.9em 0.6em!important;
+	}
+	input[type="submit"] {
+		padding:1.2em .1em;
+		font-size:18px
+	}
+}

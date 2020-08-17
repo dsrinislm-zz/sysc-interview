@@ -1,0 +1,159 @@
+.main-layout {
+	padding: 3em 0 1em
+}
+.main-container {
+	width: 35%;
+	margin: 3em auto;
+	padding: 1em 0px
+}
+.teal {
+	background: #24323d;
+	background-size: cover
+}
+.p-1em {
+	padding: 1.5em
+}
+.float-rt {
+	float: right
+}
+.float-lt {
+	float: left
+}
+.clear {
+	clear: both
+}
+.bold {
+	font-weight: bold
+}
+.border-radius {
+	border-radius: 6px
+}
+.half {
+	width: 50%
+}
+.half-space {
+	width: 48%
+}
+#site_nav {
+	padding: 1.5em
+}
+.btn {
+	display: block;
+	box-sizing: border-box;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	padding: 0.9em;
+	-webkit-appearance: none;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 1px
+}
+.wrapper {
+	position: relative;
+	overflow: hidden
+}
+h1 {
+	font-size: 24px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-weight: 400;
+	color: #fff;
+	margin: 1em 0px 0px;
+	position: relative
+}
+#addButtonsLink, #homeLink, .generated-btn {
+	width: 100%
+}
+.std_button {
+	margin: 0;
+	background: #0069ed;
+	font-family: sans-serif;
+	font-size: 1rem;
+	transition: background 250ms ease-in-out, transform 150ms ease;
+	margin-bottom: 1.5em
+}
+.std_button:hover, .std_button:focus {
+	background: #0053ba
+}
+.std_button:focus {
+	outline: 1px solid #fff;
+	outline-offset: -4px
+}
+.std_button:active {
+	transform: scale(0.99)
+}
+@media(max-width:1366px) {
+    .main-container {
+        margin:2em auto
+    }
+    .main-container {
+        width: 36%
+    }
+}
+@media(max-width:1280px) {
+    .main-container {
+        width:40%
+    }
+}
+@media(max-width:1080px) {
+    .main-container {
+        width:46%
+    }
+}
+@media(max-width:1024px) {
+    .main-container {
+        width:49%
+    }
+}
+@media(max-width:991px) {
+    .main-layout {
+        padding:2em 0 1em
+    }
+}
+@media(max-width:900px) {
+    .main-container {
+        width:58%
+    }
+}
+@media(max-width:736px) {
+    .main-container {
+        width:62%
+    }
+}
+@media(max-width:667px) {
+    .main-container {
+        width:67%
+    }
+}
+@media(max-width:568px) {
+    .main-container {
+        width:75%
+    }
+}
+@media(max-width:480px) {
+    .half-space {
+        width:100%
+    }
+}
+@media(max-width:414px) {
+    .main-container {
+        width:85%;
+        margin:1.5em auto
+    }
+}
+@media(max-width:384px) {
+    .main-container {
+        width:90%
+    }
+}
+@media(max-width:320px) {
+    .main-container {
+        width:92%;
+        margin:1em auto
+    }
+    .main-layout {
+	    padding:1em 0 0
+    }
+}
